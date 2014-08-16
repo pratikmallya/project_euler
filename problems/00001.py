@@ -23,9 +23,9 @@ def sum_mult(number, limit):
         sum_mult += mult
         count += 1
         mult = number*count
-    print("count is: {}".format(count))
-    print("sum is: {}".format(sum_mult))
+
     return sum_mult
+
 
 if __name__ == '__main__':
     main()
