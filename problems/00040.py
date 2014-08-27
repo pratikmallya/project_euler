@@ -4,7 +4,7 @@ Champernowne Constant
 Adapted from https://projecteuler.net/problem=40
 
 There is one key insight that helped devise this solution.
-The number of numbers containing a certain number of digits is:
+The number of numbers containing a certain number of digits are:
 
 digits   n(digits)
 ==================
