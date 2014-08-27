@@ -1,3 +1,9 @@
+"""
+Champernowne Constant
+=====================
+Adapted from https://projecteuler.net/problem=40
+
+"""
 from sys import stdin
 from functools import reduce
 from operator import mul

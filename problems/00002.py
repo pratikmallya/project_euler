@@ -20,7 +20,7 @@ def even_filter(x):
         return False
 
 def fibonacci(limit):
-    """Generate all fibonacci numbert upto limit
+    """Generate all fibonacci numbers upto limit
     """
     fibo = []
     fibo.append(1)
