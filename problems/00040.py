@@ -3,6 +3,28 @@ Champernowne Constant
 =====================
 Adapted from https://projecteuler.net/problem=40
 
+There is one key insight that helped devise this solution.
+The number of numbers containing a certain number of digits is:
+
+1 9
+2 90
+3 900
+4 9000
+.
+.
+n 9 * 10**(n-1)
+
+the number of digits can thus be enumerated like:
+
+1*9 + 2 * 90 + 3 * 900
+
+This idea is what helps us locate the digit that we need.
+
+Note that computing the irrational number and then looking it up would
+be a better solution in the case we knew it to be bounded. This is why
+I love timed solution checks like those in HackerRank; project Euler
+can be bruteforced but not HackerRank
+
 """
 from sys import stdin
 from functools import reduce
