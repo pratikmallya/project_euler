@@ -6,13 +6,16 @@ Adapted from https://projecteuler.net/problem=40
 There is one key insight that helped devise this solution.
 The number of numbers containing a certain number of digits is:
 
-1 9
-2 90
-3 900
-4 9000
+digits   n(digits)
+==================
+1        9
+2        90
+3        900
+4        9000
 .
 .
-n 9 * 10**(n-1)
+n        9 * 10**(n-1)
+===================
 
 the number of digits can thus be enumerated like:
 
