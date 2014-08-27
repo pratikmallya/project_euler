@@ -19,7 +19,7 @@ n        9 * 10**(n-1)
 
 the number of digits can thus be enumerated like:
 
-1*9 + 2 * 90 + 3 * 900 + ...
+1 * 9 + 2 * 90 + 3 * 900 + ...
 
 This idea is what helps us locate the digit that we need.
 
