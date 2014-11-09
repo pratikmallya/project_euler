@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/pratikmallya/project_euler.svg?branch=master)](https://travis-ci.org/pratikmallya/project_euler)
+
 My solutions to project euler problems.
 
 Please note: this is only a way for me to store solutions in a central
